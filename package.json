@@ -1,0 +1,26 @@
+{
+  "name": "aerotesttask",
+  "version": "1.0.0",
+  "description": "test REST API service",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zarudnyak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "validator": "^13.7.0"
+  }
+}
